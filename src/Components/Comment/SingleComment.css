@@ -1,0 +1,45 @@
+.tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid black;
+    margin-top:2px;
+}
+
+.tip-up {
+    top: -25px;
+    left: 10px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.comment-box .body {
+    position: relative;
+    max-width: 500px;
+    height: auto;
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align:justify;
+    box-shadow: 5px 6px 5px #bcbcbc;
+}
+
+
+.body .comment-body {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+}
+
+.comment-info {
+    float: left;
+    font-size: 13pt;
+    margin-top:10px;
+}

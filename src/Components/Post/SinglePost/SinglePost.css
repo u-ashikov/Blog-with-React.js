@@ -1,0 +1,62 @@
+.post-author {
+    color: #135d69;
+    float: left;
+}
+
+.single-post .post-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.post-title {
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.post-date {
+    color: #135d69;
+    float: left;
+}
+
+.single-post {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+    background: white;
+    border:1px solid black;
+    border-radius:17px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.post-buttons {
+    float: right;
+}
+
+.post-buttons > span {
+
+}
+
+.post link {
+    margin-bottom: 100px;
+}
+
+.posts-view h1{
+    margin: auto;
+    width: 200px;
+    font-size: 2.2em;
+    position: relative;
+    padding: 1%;
+    display: block;
+}
+
+.single-post button {
+    margin: 5px;
+}
+
+.single-post-img{
+    margin-bottom: 20px;
+    border:1px solid black;
+    border-radius: 10px;
+}

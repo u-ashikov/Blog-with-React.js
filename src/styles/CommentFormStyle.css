@@ -1,0 +1,40 @@
+.comment-form {
+    max-width: 450px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: auto;
+    width: 800px;
+}
+
+.comment-form label{
+    display:block;
+    margin-bottom: 10px;
+}
+.comment-form label > span{
+    float: left;
+    width: 100px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.comment-form fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.comment-form textarea{
+    width:450px;
+    height:100px;
+}
+
+.comment-form textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid;
+    outline: none;
+    padding: 5px 8px 5px 8px;
+    width:70%;
+}

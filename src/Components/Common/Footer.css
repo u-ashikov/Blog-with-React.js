@@ -1,0 +1,17 @@
+.footer {
+    position: static;
+    bottom: 0;
+    height: 120px;
+    background-color: #444;
+    text-align: center;
+}
+
+.footer > span {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    display: block;
+    padding: 10px;
+    font-family: "Agency FB", serif;
+    transition: .3s background-color;
+}

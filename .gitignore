@@ -1,47 +1,61 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Folder config file
-Desktop.ini
+# dependencies
+node_modules
+.idea
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# testing
+coverage
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# production
+build
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# misc
 .DS_Store
-.AppleDouble
-.LSOverride
+.env
+npm-debug.log
 
-# Thumbnails
-._*
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# User-specific stuff:
+.idea\workspace.xml
+.idea/workspace.xml
+.idea\tasks.xml
+.idea
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Sensitive or high-churn files:
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties

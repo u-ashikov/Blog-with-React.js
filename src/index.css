@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.breadcrumbs {
+  color: #13737f;
+  text-decoration: none;
+  font-family: "Century Gothic", "serif", "sans-serif";
+  float: left;
+  padding-left: 15px;
+  display: block;
+  font-size: 1.2em;
+  position: static;
+}
+
+.breadcrumbs a{
+  color: #13737f;
+  font-family: "Century Gothic", "serif", "sans-serif";
+}
